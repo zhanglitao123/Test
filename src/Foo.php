@@ -1,6 +1,6 @@
 <?php
 
-namespace Zhanglitao\Test;
+namespace Zhanglitao123;
 
 class Foo
 {
