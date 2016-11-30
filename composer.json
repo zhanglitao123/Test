@@ -7,5 +7,12 @@
             "email": "zlt@163.com"
         }
     ],
-    "require": {}
+    "require": {
+        "upyun/sdk": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zhanglitao123\\": "src/"
+        }
+    },
 }
