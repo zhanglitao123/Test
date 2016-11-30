@@ -1,0 +1,11 @@
+{
+    "name": "zhanglitao123/test",
+    "description": "testing",
+    "authors": [
+        {
+            "name": "zhanglitao",
+            "email": "zlt@163.com"
+        }
+    ],
+    "require": {}
+}
