@@ -57,6 +57,20 @@
  *
  *
  *
+ *
+ *
+ * git fetch <远程主机名>    将某个远程主机的更新全部取回本地
+ * git fetch <远程主机名> <分支名>    取回某个远程主机上特定分支的更新
+ *
+ * 所取回的更新，在本地主机上要用”远程主机名/分支名”的形式读取。比如origin主机的master分站，就要用 origin/master 读取。
+ * 取回远程主机的更新以后，可以在它的基础上，使用git checkout命令创建一个新的分支  （git checkout -b newBranch origin/master）
+ * 也可以使用git merge命令或者git rebase命令，在本地分支上合并远程分支。  （git merge origin/master）
+ *
+ *
+ *
+ *
+ *
+ *
  */
 
 
